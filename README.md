@@ -36,6 +36,7 @@ A list of students in this class:
 - Praise Okposugbo-Itua
 - Amilegbe Michelle
 - Adenaiya Daniel
+- Tega Alawoya
 
 ## Installation
 
