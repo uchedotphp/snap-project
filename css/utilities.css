@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+  color: var(--medium-grey);
+  font-size: 16px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+a img {
+  margin-left: 5px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 700;
+}
