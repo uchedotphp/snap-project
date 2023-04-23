@@ -7,11 +7,21 @@ a {
   align-items: center;
 }
 
+a:hover {
+  color: var(--almost-black);
+}
+
 a img {
   margin-left: 5px;
 }
 
 p {
   font-size: 18px;
+  line-height: 28px;
+}
+
+h1 {
+  font-size: 82px;
   font-weight: 700;
+  color: var(--almost-black);
 }
