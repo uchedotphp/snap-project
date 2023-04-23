@@ -2,8 +2,26 @@ button {
   font-size: 16px;
   color: var(--medium-grey);
   background-color: var(--almost-white);
-  border-radius: 12px;
-  border: 2px solid var(--almost-black);
-  padding: 10px 15px;
+  border-radius: 15px;
+  border: 2px solid var(--medium-grey);
+  padding: 10px 20px;
   font-weight: 400;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+button:hover {
+  color: var(--almost-black);
+  border-color: var(--almost-black);
+}
+
+.action-btn {
+  font-weight: 700;
+  color: var(--almost-black);
+  padding: 15px 30px;
+}
+
+.action-btn:hover {
+  font-weight: 700;
+  color: var(--medium-grey);
 }

@@ -29,3 +29,73 @@ body {
 .container {
   padding: 30px 50px;
 }
+
+.container .navigation {
+  display: flex;
+  align-items: center;
+}
+
+.container .navigation > a {
+  margin: 0 20px;
+}
+
+.container .navigation :first-child {
+  align-self: flex-end;
+}
+
+.logo-area {
+  margin-right: 50px;
+}
+
+.container .navigation :nth-child(6) {
+  margin-left: auto;
+}
+
+/* main content */
+.main-content {
+  max-width: 1024px;
+  justify-content: space-between;
+  margin: 80px auto 0;
+  display: flex;
+  gap: 50px;
+}
+
+.main-content .left-pane {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-content .left-pane .top {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content .left-pane .top > * {
+  margin-bottom: 50px;
+}
+
+.main-content .left-pane .top :last-child {
+  margin-bottom: 0;
+}
+
+.main-content .left-pane .bottom {
+  display: flex;
+  align-items: center;
+}
+
+.main-content .left-pane .bottom > * {
+  margin-right: 30px;
+}
+
+.main-content .right-pane .img-holder {
+  width: 100%;
+}
+
+.main-content .right-pane .img-holder img {
+  width: 100%;
+  height: auto;
+}
